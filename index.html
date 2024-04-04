@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>q1</title>
+</head>
+<body>
+    <a href="question2.html"><h2>2nd Question-</h2></a>
+    <a href="question3.html"><br><h2>3rd Question-</h2></a>
+    <script>
+        var name = prompt("Please enter your name: ");
+        var h = prompt("Please enter your height (In): ");
+        var w = prompt("Please enter your weight (Kg): ");
+        var h1; var h2; var w1; var decimal;
+        decimal = h % 12;
+        h1 = h / 12;
+        h3 = h1 % 1;
+        h = h1 - h3;
+        w = w * 2.20462262;
+        w1 = w * 100; w1 = (w1 % 1) / 100;
+        w = w - w1;
+        alert("Name: " + name + "\nHeight (ft): " + h + "\nWeight (lbs): " + w);
+    </script>
+</body>
+</html>
